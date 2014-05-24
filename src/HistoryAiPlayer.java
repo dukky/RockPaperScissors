@@ -1,6 +1,11 @@
 import java.util.Collections;
 import java.util.List;
 
+/**
+* A class that implements an ai player that uses information in the history
+* of moves to attempt to predict the move the opponent is going to play and
+* play the move that will beat it.
+*/
 public class HistoryAiPlayer extends AiPlayer {
 
 	@Override
